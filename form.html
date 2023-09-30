@@ -7,7 +7,59 @@
 </head>
 <body>
     <form action="">
-        
+        <!-- date -->
+        <label for="date">Select Date :</label>
+        <input type="date" name="select-date" value="2023-04-10" min="2001-01-01" max="2023-31-10" id="date"><br>
+
+        <!-- date and time -->
+        <label for="date-time">Select Date and Time :</label>
+        <input type="datetime" name="" id="date-time"><br>
+
+        <!-- time -->
+        <label for="time">Select Time :</label>
+        <input type="time" name="" id="time"><br>
+
+        <!-- date-time local -->
+        <label for="dtlocal">Local Date&Time :</label>
+        <input type="datetime-local" name="" id="dtlocal"><br>
+
+        <!-- week -->
+        <label for="week">Select Week :</label>
+        <input type="week" name="" id="week"><br>
+
+        <!-- month -->
+        <label for="month">Select Month :</label>
+        <input type="month" name="" id="month"><br>
+
+        <!-- email -->
+        <label for="email">Enter Email :</label>
+        <input type="email" name="email-address" id="email" placeholder="Enter your email"><br>
+
+        <!-- tel -->
+        <label for="tel">Enter Tel :</label>
+        <input type="tel" name="" id="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="123-123-1234" required><br>
+
+        <!-- url -->
+        <label for="url">Enter URL :</label>
+        <input type="url" name="" id="url" placeholder="https://www.google.com" pattern="https://..*"><br>
+
+        <!-- search -->
+        <label for="search">Search</label>
+        <input type="search" name="" id="search" placeholder="Type here to search">
+        <button type="submit">Search</button><br>
+
+        <!-- range -->
+        <label for="range">Please Select value from 1 to 100</label>
+        <input type="range" name="" id="range" min="1" max="100" value="1"><br>
+
+        <!-- number -->
+        <label for="number">Enter your Age :</label>
+        <input type="number" name="" id="number"
+        min="18" max="60" required><br>
+
+        <!-- color -->
+        <label for="color">Select color :</label>
+        <input type="color" name="" id="color"><br>
     </form>
 </body>
 </html>
