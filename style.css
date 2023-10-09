@@ -189,130 +189,131 @@ hr {
   margin: auto;
 }
 
-button{
-    border-radius: 5px;
-    border: none;
+button {
+  border-radius: 5px;
+  border: none;
 }
 
-.head-button{
-    color: white;
-    background-color: #eb7d4b;
+.head-button {
+  color: white;
+  background-color: #eb7d4b;
 }
 
-.project-button{
-    color: white;
-    background-color: #17c2a4;
+.project-button {
+  color: white;
+  background-color: #17c2a4;
 }
 
-.send-msg{
-    color: white;
+.send-msg {
+  color: white;
+  background-color: #30bae7;
+}
+
+input,
+textarea,
+::placeholder {
+  background-color: #273a71;
+  text-align: left;
+  color: white;
+  padding: 10px 0px 10px 10px;
+  border: none;
+}
+
+.progress90 {
+  progress::-webkit-progress-bar {
+    background-color: white;
+  }
+  progress::-webkit-progress-value {
     background-color: #30bae7;
+  }
 }
 
-input, textarea, ::placeholder{
-    background-color: #273a71;
-    text-align: left;
-    color: white;
-    padding: 10px 0px 10px 10px;
-    border: none;
+.progress75 {
+  progress::-webkit-progress-bar {
+    background-color: white;
+  }
+  progress::-webkit-progress-value {
+    background-color: #d74680;
+  }
 }
 
-.progress90{
-    progress::-webkit-progress-bar {
-        background-color: white;
-     }
-     progress::-webkit-progress-value {
-        background-color: #30bae7;
-     }
+.progress70 {
+  .progress70::-webkit-progress-bar {
+    background-color: white;
+  }
+  progress::-webkit-progress-value {
+    background-color: #15c7a8;
+  }
 }
 
-.progress75{
-    progress::-webkit-progress-bar {
-        background-color: white;
-     }
-     progress::-webkit-progress-value {
-        background-color: #d74680;
-     }
+.progress85::-webkit-progress-bar {
+  background-color: white;
 }
-
-.progress70{
-    .progress70::-webkit-progress-bar {
-        background-color: white;
-     }
-     progress::-webkit-progress-value {
-        background-color: #15c7a8;
-     }
+.progress85::-webkit-progress-value {
+  background-color: #eb7d4b;
 }
-
-    .progress85::-webkit-progress-bar {
-        background-color: white;
-     }
-     .progress85::-webkit-progress-value {
-        background-color: #eb7d4b;
-     }
-
 
 /* styles for desktop devices */
 @media only screen and (min-width: 992px) {
-    *{
-        padding: 0px !important;
-    }
-    body {
-      margin: auto;
-      padding: 0px;
-    }
-
-    img{
-        width: auto !important;
-    }
-
-    nav{
-        display: flex;
-    }
-
-    .pad-none{
-        padding: 0px !important;
-    }
-
-    .home{
-        align-items: right;
-    }
-    .desktop{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .header{
-        padding: 40px 100px !important;
-    }
-
-    .pad-desktop{
-        padding: 60px 100px !important;
-    }
-
-    .desktop-padb30{
-        padding-bottom: 30px !important;
-    }
-
-    .desktop-pad40{
-        padding: 40px 200px !important;
-    }
-
-    li{
-        padding-right: 10px !important;
-    }
-
-    nav{
-        display: flex;
-        justify-content: space-between;
-    }
+  * {
+    padding: 0px !important;
+  }
+  body {
+    margin: auto;
+    padding: 0px;
   }
 
-  /* styles for tablet devices */
+  img {
+    width: auto !important;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  .pad-none {
+    padding: 0px !important;
+  }
+
+  .home {
+    align-items: right;
+  }
+  .desktop {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .header {
+    padding: 40px 100px !important;
+  }
+
+  .pad-desktop {
+    padding: 60px 100px !important;
+  }
+
+  .desktop-padb30 {
+    padding-bottom: 30px !important;
+  }
+
+  .desktop-pad40 {
+    padding: 40px 200px !important;
+  }
+
+  li {
+    padding-right: 10px !important;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* styles for tablet devices */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    body {
-      font-size: 14px;
-      width: 80%;
-      margin: auto;
-    }
+  body {
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
   }
+}
