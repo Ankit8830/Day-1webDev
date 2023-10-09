@@ -108,9 +108,9 @@ li {
 }
 
 .padtb-30 {
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
-  }
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
 
 .padtb-20 {
   padding-top: 20px !important;
@@ -127,8 +127,8 @@ li {
 }
 
 .padb-5 {
-    padding-bottom: 5px !important;
-  }
+  padding-bottom: 5px !important;
+}
 
 .padt-10 {
   padding-top: 10px !important;
@@ -139,12 +139,12 @@ li {
 }
 
 .padt-30 {
-    padding-top: 30px !important;
-  }
+  padding-top: 30px !important;
+}
 
-  .padb-30 {
-    padding-bottom: 30px !important;
-  }
+.padb-30 {
+  padding-bottom: 30px !important;
+}
 
 .padb-20 {
   padding-bottom: 20px !important;
@@ -158,9 +158,9 @@ li {
 /* image start*/
 
 .img20 {
-    width: 20%;
-    height: auto;
-  }
+  width: 20%;
+  height: auto;
+}
 
 .img25 {
   width: 25%;
@@ -183,9 +183,36 @@ li {
 }
 /* image end */
 
+hr {
+  width: 20px;
+  background-color: transparent;
+  margin: auto;
+}
 
-hr{
-    width: 20px;
-    background-color: transparent;
-    margin: auto;
+button{
+    border-radius: 5px;
+    border: none;
+}
+
+.head-button{
+    color: white;
+    background-color: #eb7d4b;
+}
+
+.project-button{
+    color: white;
+    background-color: #17c2a4;
+}
+
+.send-msg{
+    color: white;
+    background-color: #30bae7;
+}
+
+input, textarea, ::placeholder{
+    background-color: #273a71;
+    text-align: left;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    border: none;
 }
