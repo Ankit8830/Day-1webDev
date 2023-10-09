@@ -122,10 +122,13 @@ li {
   padding-bottom: 10px !important;
 }
 
-.padtb-5 {
+.padt-5 {
   padding-top: 5px !important;
-  padding-bottom: 5px !important;
 }
+
+.padb-5 {
+    padding-bottom: 5px !important;
+  }
 
 .padt-10 {
   padding-top: 10px !important;
@@ -134,6 +137,14 @@ li {
 .padt-20 {
   padding-top: 20px !important;
 }
+
+.padt-30 {
+    padding-top: 30px !important;
+  }
+
+  .padb-30 {
+    padding-bottom: 30px !important;
+  }
 
 .padb-20 {
   padding-bottom: 20px !important;
@@ -145,6 +156,12 @@ li {
 /* padding section end */
 
 /* image start*/
+
+.img20 {
+    width: 20%;
+    height: auto;
+  }
+
 .img25 {
   width: 25%;
   height: auto;
@@ -165,3 +182,10 @@ li {
   height: auto;
 }
 /* image end */
+
+
+hr{
+    width: 20px;
+    background-color: transparent;
+    margin: auto;
+}
