@@ -107,6 +107,11 @@ li {
   padding-right: 10px !important;
 }
 
+.padtb-30 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
 .padtb-20 {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
