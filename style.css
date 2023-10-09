@@ -1,175 +1,162 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    list-style-type: none;
-    text-align: center;
-    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
 }
-
 
 /* body{
     align-items: center;
 } */
 
-
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
-
 
 /* font style start*/
 
-.sm-extra{
-    font-size: 12px;
+.sm-extra {
+  font-size: 12px;
 }
 
-.sm{
-    font-size: 14px;
+.sm {
+  font-size: 14px;
 }
 
-.md{
-    font-size: 16px;
+.md {
+  font-size: 16px;
 }
 
-.lg{
-    font-size: 18px;
+.lg {
+  font-size: 18px;
 }
 
-h1{
-    font-size: 20px;
+h1 {
+  font-size: 20px;
 }
 /* font style end */
 
-
-header{
-    background-color: #87509c;
+header {
+  background-color: #87509c;
 }
 
-
-footer{
-    background-color: #3c5499;
+footer {
+  background-color: #3c5499;
 }
 
-
-.services{
-    background-color: #17c2a4;
+.services {
+  background-color: #17c2a4;
 }
 
-
-.about{
-    background-color: #d74680;
+.about {
+  background-color: #d74680;
 }
 
-
-.portfolio{
-    background-color: #ffdd99;
+.portfolio {
+  background-color: #ffdd99;
 }
 
-
-.team{
-    background-color: #e7f1f8;
+.team {
+  background-color: #e7f1f8;
 }
 
-.team, .skills, .portfolio{
-    color: #000000;
+.team,
+.skills,
+.portfolio {
+  color: #000000;
 }
 
-header, .services, .about, footer{
-    color: white;
+header,
+.services,
+.about,
+footer {
+  color: white;
 }
-
 
 /* list style */
-ul{
-    display: flex;
-    justify-content: center;
+ul {
+  display: flex;
+  justify-content: center;
 }
 
-
-li{
-    padding-right: 10px;
+li {
+  padding-right: 10px;
 }
-
 
 /* list style */
-
 
 /* padding section start*/
-.pad-all20{
-    padding: 20px !important;
+.pad-all20 {
+  padding: 20px !important;
 }
 
-.padlr-30{
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+.padlr-30 {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
 }
 
-.padlr-20{
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+.padlr-20 {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
-.padlr-10{
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+.padlr-10 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
 
-.padtb-20{
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
+.padtb-20 {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 
-.padtb-10{
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+.padtb-10 {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
 }
 
-.padtb-5{
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
+.padtb-5 {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
 }
 
-.padt-10{
-    padding-top: 10px !important;
+.padt-10 {
+  padding-top: 10px !important;
 }
 
-.padt-20{
-    padding-top: 20px !important;
+.padt-20 {
+  padding-top: 20px !important;
 }
 
-.padb-20{
-    padding-bottom: 20px !important;
+.padb-20 {
+  padding-bottom: 20px !important;
 }
 
-.padb-10{
-    padding-bottom: 10px !important;
+.padb-10 {
+  padding-bottom: 10px !important;
 }
 /* padding section end */
 
-
 /* image start*/
-.img25{
-    width: 25%;
-    height: auto;
+.img25 {
+  width: 25%;
+  height: auto;
 }
 
-
-.img35{
-    width: 35%;
-    height: auto;
+.img35 {
+  width: 35%;
+  height: auto;
 }
 
-
-.img50{
-    width: 50%;
-    height: auto;
+.img50 {
+  width: 50%;
+  height: auto;
 }
 
-
-.img75{
-    width: 75%;
-    height: auto;
+.img75 {
+  width: 75%;
+  height: auto;
 }
 /* image end */
-
