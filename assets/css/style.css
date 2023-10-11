@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+}
+
+section{
+  padding: 20px;
+}
+
+
+
+
+
+/* styles for tablet devices */
+@media only screen and (max-width: 991px) {
+  body {
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/* styles for desktop devices */
+@media only screen and (min-width: 992px) {
+  section{
+    padding: 60px 100px;
+  }
+
+  section>div, ul{ 
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  section>div>div{
+    flex: 50%;
+    padding: 40px 30px 0px 0px;
+  }
+}
+
+
