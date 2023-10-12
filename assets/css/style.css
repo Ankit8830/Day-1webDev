@@ -6,6 +6,31 @@
   font-family: "Titillium Web", Arial, Helvetica, sans-serif;
 }
 
+header{
+  background-color: #87509c;
+}
+
+.services{
+  background-color: #17c2a4;
+}
+
+.team{
+  background-color: #e7f1f8;
+}
+
+.portfolio{
+  background-color: #ffdd99;
+}
+
+.aboutUs{
+  background-color: #d74680;
+}
+
+footer{
+  background-color: #3c5499;
+}
+
+
 section{
   padding: 20px;
 }
@@ -37,6 +62,15 @@ section{
   section>div>div{
     flex: 50%;
     padding: 40px 30px 0px 0px;
+  }
+  
+  div>img{
+    padding-bottom: 30px;
+  }
+
+  .aboutUs>div{
+    flex: ;
+  }
   }
 }
 
