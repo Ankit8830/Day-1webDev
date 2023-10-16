@@ -19,6 +19,9 @@
 .team h3 {
   padding: 20px 0px 5px 0px;
 }
+.team div > img {
+  width: 130px;
+}
 .team div > div {
   padding: 30px 0px 0px 0px;
 }
@@ -28,14 +31,13 @@
 .team span {
   color: #30bae7;
 }
-
-ul {
+.team ul {
   display: flex;
   list-style: none;
   justify-content: center;
   margin: auto;
 }
-ul li {
+.team ul li {
   padding: 5px;
 }
 

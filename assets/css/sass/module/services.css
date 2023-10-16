@@ -22,8 +22,7 @@
 .services h3 {
   padding: 20px 0px;
 }
-
-ul {
+.services ul {
   display: flex;
   list-style: none;
 }

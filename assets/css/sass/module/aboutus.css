@@ -16,8 +16,12 @@
   background-color: #14a58c;
   margin: 15px auto;
 }
-.aboutUs .cols2 > div {
+.aboutUs .cols2 {
   padding: 20px 0px 0px 0px;
+}
+.aboutUs .cols2 img {
+  width: 130px;
+  height: 130px;
 }
 .aboutUs div > p {
   padding: 15px 0px;
@@ -33,6 +37,18 @@
   .aboutUs > div {
     display: flex;
     justify-content: center;
+  }
+  .aboutUs > div .cols2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+  .aboutUs > div .cols2 div {
+    width: 300px;
+    padding: 0px 20px;
+  }
+  .aboutUs > div .cols2 p {
+    font-style: italic;
   }
   .aboutUs {
     padding: 60px 80px;

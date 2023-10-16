@@ -23,15 +23,23 @@ header li > a:hover {
   padding: 8px;
   border-radius: 5px;
 }
+header ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header ul li {
+  list-style: none;
+  padding-top: 10px;
+}
 header button {
   background-color: #eb7d4b;
   border: none;
   border-radius: 5px;
-  padding: 20px 35px;
+  padding: 15px 25px;
   color: #ffffff;
 }
-
-h1 {
+header h1 {
   padding: 40px 0px 20px 0px;
 }
 
@@ -46,6 +54,8 @@ h1 {
     padding: 0px 100px;
   }
   header nav > div ul {
+    display: flex;
+    flex-direction: row;
     padding-top: 15px;
   }
   header nav > div ul a {

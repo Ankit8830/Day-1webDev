@@ -21,8 +21,13 @@ $font-family: "Titillium Web", Arial;
     margin: 15px auto;
   }
 
-  .cols2 > div {
+  .cols2 {
     padding: 20px 0px 0px 0px;
+
+    img {
+      width: 130px;
+      height: 130px;
+    }
   }
   div > p {
     padding: 15px 0px;
@@ -39,6 +44,20 @@ $font-family: "Titillium Web", Arial;
   .aboutUs > div {
     display: flex;
     justify-content: center;
+
+    .cols2 {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 40px;
+
+      div {
+        width: 300px;
+        padding: 0px 20px;
+      }
+      p {
+        font-style: italic;
+      }
+    }
   }
 
   .aboutUs {
