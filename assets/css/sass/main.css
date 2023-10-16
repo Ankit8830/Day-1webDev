@@ -8,18 +8,18 @@
 hr {
   width: 50px;
   background-color: #14a58c;
-  margin: 20px auto;
+  margin: 20px auto 0px auto;
 }
 
 .services {
   background-color: #17c2a4;
-  padding: 60px 80px;
+  padding: 30px 30px;
+  color: #ffffff;
 }
-
-div > div {
-  padding: 30px;
+.services div > div {
+  padding: 30px 0px 0px 0px;
 }
-div > div h3 {
+.services h3 {
   padding: 20px 0px;
 }
 
@@ -41,20 +41,20 @@ hr {
 
 .team {
   background-color: #e7f1f8;
-  padding: 60px 80px;
+  color: #3c4761;
+  padding: 30px 30px;
 }
 .team h3 {
   padding: 20px 0px 5px 0px;
+}
+.team div > div {
+  padding: 30px 0px 0px 0px;
 }
 .team div > p {
   padding: 20px 0px;
 }
 .team span {
   color: #30bae7;
-}
-
-div > div {
-  padding: 30px;
 }
 
 ul {
@@ -68,7 +68,69 @@ ul li {
 }
 
 @media screen and (min-width: 991px) {
-  .team > div {
+  section > div {
     display: flex;
+  }
+}
+hr {
+  width: 50px;
+  background-color: #c8d9e5;
+  margin: 20px auto;
+}
+
+.skills {
+  background-color: #ffffff;
+  color: #3c4761;
+  padding: 30px 30px;
+}
+.skills h3 {
+  padding: 20px 0px 5px 0px;
+}
+.skills div > div {
+  padding: 30px 0px 0px 0px;
+}
+.skills div > p {
+  padding: 20px 0px;
+}
+.skills span {
+  color: #30bae7;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: auto;
+}
+ul li {
+  padding: 5px;
+}
+
+@media screen and (min-width: 991px) {
+  section > div {
+    display: flex;
+    justify-content: center;
+  }
+}
+.portfolio {
+  background-color: #ffdd99;
+  color: #3c4761;
+  padding: 30px 30px;
+}
+.portfolio div > img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.portfolio .cols2 > div {
+  padding: 20px 0px 0px 0px;
+}
+
+@media screen and (min-width: 991px) {
+  .portfolio > div {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio > div img {
+    width: 70%;
   }
 }/*# sourceMappingURL=main.css.map */

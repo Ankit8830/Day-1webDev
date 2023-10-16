@@ -8,18 +8,18 @@
 hr {
   width: 50px;
   background-color: #14a58c;
-  margin: 20px auto;
+  margin: 20px auto 0px auto;
 }
 
 .services {
   background-color: #17c2a4;
-  padding: 60px 80px;
+  padding: 30px 30px;
+  color: #ffffff;
 }
-
-div > div {
-  padding: 30px;
+.services div > div {
+  padding: 30px 0px 0px 0px;
 }
-div > div h3 {
+.services h3 {
   padding: 20px 0px;
 }
 

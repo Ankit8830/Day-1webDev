@@ -1,6 +1,6 @@
-$bgcolor: #e7f1f8;
-$font-color: #3c4761;
-$font-family: "Titillium Web", Arial;
+$bgcolor: #3c5499;
+$font-color: #ffffff;
+$font-family: 'Titillium Web', Arial;
 
 hr {
   width: 50px;
@@ -8,7 +8,7 @@ hr {
   margin: 20px auto;
 }
 
-.team {
+footer> {
   background-color: $bgcolor;
   color: $font-color;
   padding: 30px 30px;
@@ -17,17 +17,12 @@ hr {
     padding: 20px 0px 5px 0px;
   }
 
-  div>div{
-    padding: 30px 0px 0px 0px;
+  div> .input-box{
+    padding: 30px 0px;
   }
 
-  div > p {
-    padding: 20px 0px;
-  }
+  
 
-  span {
-    color: #30bae7;
-  }
 }
 
 ul {
@@ -42,7 +37,8 @@ ul {
 }
 
 @media screen and (min-width: 991px) {
-  section > div {
+  footer>div{
     display: flex;
+    flex-direction: column;
   }
 }

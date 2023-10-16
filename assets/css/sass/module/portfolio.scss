@@ -1,0 +1,28 @@
+$bgcolor: #ffdd99;
+$font-color: #3c4761;
+$font-family: "Titillium Web", Arial;
+
+.portfolio{
+    background-color: $bgcolor;
+    color: $font-color;
+    padding: 30px 30px;
+    
+    div>img{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .cols2>div{
+        padding: 20px 0px 0px 0px;
+    }
+  }
+
+  @media screen and (min-width: 991px) {
+    .portfolio>div {
+      display: flex;
+      justify-content: center;
+
+      img{
+        width: 70%;
+      }
+    }
+  }

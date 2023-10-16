@@ -4,21 +4,21 @@ hr {
   margin: 20px auto;
 }
 
-.team {
-  background-color: #e7f1f8;
+.skills {
+  background-color: #ffffff;
   color: #3c4761;
   padding: 30px 30px;
 }
-.team h3 {
+.skills h3 {
   padding: 20px 0px 5px 0px;
 }
-.team div > div {
+.skills div > div {
   padding: 30px 0px 0px 0px;
 }
-.team div > p {
+.skills div > p {
   padding: 20px 0px;
 }
-.team span {
+.skills span {
   color: #30bae7;
 }
 
@@ -35,5 +35,6 @@ ul li {
 @media screen and (min-width: 991px) {
   section > div {
     display: flex;
+    justify-content: center;
   }
-}/*# sourceMappingURL=team.css.map */
+}/*# sourceMappingURL=skills.css.map */
