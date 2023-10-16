@@ -1,42 +1,54 @@
 $bgcolor: #ffdd99;
 $font-color: #3c4761;
-$font-family: 'Titillium Web', Arial;
+$font-family: "Titillium Web", Arial;
 
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    text-align: center;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.portfolio {
+  background-color: $bgcolor;
+  color: $font-color;
+  padding: 30px 30px;
+  font-family: $font-family;
+
+  hr {
+    width: 50px;
+    background-color: #14a58c;
+    margin: 15px auto;
   }
 
-.portfolio{
-    background-color: $bgcolor;
+  div > img {
+    width: 90%;
+    padding-bottom: 10px;
+  }
+  .cols2 > div {
+    padding: 20px 0px 0px 0px;
+  }
+
+  button {
+    background-color: #17c2a4;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 35px;
+    margin-top: 20px;
     color: $font-color;
-    padding: 30px 30px;
-    font-family: $font-family;
-    
-    hr {
-        width: 50px;
-        background-color: #14a58c;
-        margin: 15px auto;
-      }
+  }
+}
 
-    div>img{
-        width: 90%;
-        padding-bottom: 10px;
-    }
-    .cols2>div{
-        padding: 20px 0px 0px 0px;
+@media screen and (min-width: 991px) {
+  .portfolio {
+    padding: 60px 80px;
+  }
+  .portfolio > div {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 70%;
     }
   }
-
-  @media screen and (min-width: 991px) {
-    .portfolio>div {
-      display: flex;
-      justify-content: center;
-
-      img{
-        width: 70%;
-      }
-    }
-  }
+}

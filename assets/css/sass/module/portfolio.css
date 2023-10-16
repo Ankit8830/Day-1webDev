@@ -23,8 +23,19 @@
 .portfolio .cols2 > div {
   padding: 20px 0px 0px 0px;
 }
+.portfolio button {
+  background-color: #17c2a4;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 35px;
+  margin-top: 20px;
+  color: #3c4761;
+}
 
 @media screen and (min-width: 991px) {
+  .portfolio {
+    padding: 60px 80px;
+  }
   .portfolio > div {
     display: flex;
     justify-content: center;

@@ -22,6 +22,13 @@
 .input div > .input-box {
   padding: 30px 0px;
 }
+.input button {
+  background-color: #30bae7;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 35px;
+  color: #ffffff;
+}
 
 textarea {
   padding-top: 15px;

@@ -1,13 +1,13 @@
 $bgcolor: #e7f1f8;
 $font-color: #3c4761;
-$font-family: 'Titillium Web', Arial;
+$font-family: "Titillium Web", Arial;
 
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    text-align: center;
-  }
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
 
 .team {
   background-color: $bgcolor;
@@ -25,7 +25,7 @@ $font-family: 'Titillium Web', Arial;
     padding: 20px 0px 5px 0px;
   }
 
-  div>div{
+  div > div {
     padding: 30px 0px 0px 0px;
   }
 
@@ -50,7 +50,11 @@ ul {
 }
 
 @media screen and (min-width: 991px) {
-  section > div {
+  .team > div {
     display: flex;
+  }
+
+  .team {
+    padding: 60px 80px;
   }
 }

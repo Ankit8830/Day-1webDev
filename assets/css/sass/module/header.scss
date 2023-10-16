@@ -15,30 +15,48 @@ header {
   padding: 30px;
   font-family: $font-family;
 
-  img{
-    width: 130px;
+  img {
+    width: 180px;
   }
 
-  div {
-    padding: 30px 0px;
+  li > a {
+    text-decoration: none;
+    color: $font-color;
+    &:hover {
+      background-color: #643a79;
+      padding: 8px;
+      border-radius: 5px;
+    }
   }
 
-
-//   ul {
-//     display: flex;
-//     flex-direction: column;
-//     margin-left: auto;
-//   }
+  button {
+    background-color: #eb7d4b;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 35px;
+    color: $font-color;
+  }
+}
+h1 {
+  padding: 40px 0px 20px 0px;
 }
 
 @media screen and (min-width: 991px) {
-  nav>div {
-    display: flex;
+  header {
+    padding: 30px 80px 80px 60px;
 
-    ul {
+    nav > div {
       display: flex;
+      flex-direction: row;
       justify-content: space-between;
-      margin-right: auto;
+      padding: 0px 100px;
+
+      ul {
+        padding-top: 15px;
+        a {
+          padding: 0px 10px;
+        }
+      }
     }
   }
 }

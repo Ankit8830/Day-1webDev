@@ -1,7 +1,7 @@
 $bgcolor: #3c5499;
 $font-color: #ffffff;
 $anchor-color: #ffffff;
-$font-family: 'Titillium Web', Arial;
+$font-family: "Titillium Web", Arial;
 
 * {
   padding: 0px;
@@ -29,31 +29,39 @@ $font-family: 'Titillium Web', Arial;
   div > .input-box {
     padding: 30px 0px;
   }
+
+  button {
+    background-color: #30bae7;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 35px;
+    color: $font-color;
+  }
 }
 
-textarea{
-    padding-top: 15px;
+textarea {
+  padding-top: 15px;
 }
 
-.social{
-    background-color: #344b8e;
-    padding: 15px 0px;
-    ul{
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        a{
-            text-decoration: none;
-            color: $anchor-color;
-            &:hover{
-                color: #30bae7;
-            }
-        }
+.social {
+  background-color: #344b8e;
+  padding: 15px 0px;
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: $anchor-color;
+      &:hover {
+        color: #30bae7;
+      }
     }
+  }
 }
 @media screen and (min-width: 991px) {
- .social>ul{
+  .social > ul {
     display: flex;
     flex-direction: row;
- }
+  }
 }

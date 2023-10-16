@@ -1,13 +1,13 @@
 $bgcolor: #ffffff;
 $font-color: #3c4761;
-$font-family: 'Titillium Web', Arial;
+$font-family: "Titillium Web", Arial;
 
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    text-align: center;
-  }
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
 
 .skills {
   background-color: $bgcolor;
@@ -25,12 +25,11 @@ $font-family: 'Titillium Web', Arial;
     padding: 20px 0px 5px 0px;
   }
 
-  div>div{
+  div > div {
     padding: 30px 0px 0px 0px;
   }
 
   div > p {
-    // color: #30bae7;
     padding: 20px 0px;
   }
 
@@ -44,8 +43,12 @@ $font-family: 'Titillium Web', Arial;
     display: flex;
     justify-content: center;
 
-    div{
-        padding: 0px 20px;
+    div {
+      padding: 20px 10px 0px 10px;
     }
+  }
+
+  .skills {
+    padding: 60px 80px;
   }
 }

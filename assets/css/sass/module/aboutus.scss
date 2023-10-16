@@ -1,43 +1,47 @@
 $bgcolor: #d74680;
 $font-color: #ffffff;
-$font-family: 'Titillium Web', Arial;
+$font-family: "Titillium Web", Arial;
 
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    text-align: center;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.aboutUs {
+  background-color: $bgcolor;
+  color: $font-color;
+  font-family: $font-family;
+  padding: 30px 30px;
+
+  hr {
+    width: 50px;
+    background-color: #14a58c;
+    margin: 15px auto;
   }
 
-.aboutUs{
-    background-color: $bgcolor;
-    color: $font-color;
-    font-family: $font-family;
-    padding: 30px 30px;
-    
-    hr {
-        width: 50px;
-        background-color: #14a58c;
-        margin: 15px auto;
-      }
+  .cols2 > div {
+    padding: 20px 0px 0px 0px;
+  }
+  div > p {
+    padding: 15px 0px;
+  }
+  h3 {
+    padding-bottom: 5px;
+  }
+  span {
+    color: #ffdd99;
+  }
+}
 
-      .cols2>div{
-        padding: 20px 0px 0px 0px;
-    }
-    div>p{
-        padding: 15px 0px;
-    }
-    h3{
-        padding-bottom: 5px;
-    }
-    span{
-        color: #ffdd99;
-    }
+@media screen and (min-width: 991px) {
+  .aboutUs > div {
+    display: flex;
+    justify-content: center;
   }
 
-  @media screen and (min-width: 991px) {
-    .aboutUs>div {
-      display: flex;
-      justify-content: center;
-    }
+  .aboutUs {
+    padding: 60px 80px;
   }
+}

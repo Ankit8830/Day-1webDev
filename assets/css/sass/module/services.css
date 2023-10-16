@@ -32,4 +32,7 @@ ul {
   .services > div {
     display: flex;
   }
+  .services {
+    padding: 60px 80px;
+  }
 }/*# sourceMappingURL=services.css.map */

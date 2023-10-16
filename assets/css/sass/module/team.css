@@ -40,7 +40,10 @@ ul li {
 }
 
 @media screen and (min-width: 991px) {
-  section > div {
+  .team > div {
     display: flex;
+  }
+  .team {
+    padding: 60px 80px;
   }
 }/*# sourceMappingURL=team.css.map */
