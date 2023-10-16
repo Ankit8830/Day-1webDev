@@ -2,16 +2,24 @@ $bgcolor: #ffffff;
 $font-color: #3c4761;
 $font-family: 'Titillium Web', Arial;
 
-hr {
-  width: 50px;
-  background-color: #c8d9e5;
-  margin: 20px auto;
-}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+  }
 
 .skills {
   background-color: $bgcolor;
   color: $font-color;
+  font-family: $font-family;
   padding: 30px 30px;
+
+  hr {
+    width: 50px;
+    background-color: #c8d9e5;
+    margin: 15px auto;
+  }
 
   h3 {
     padding: 20px 0px 5px 0px;
@@ -31,20 +39,13 @@ hr {
   }
 }
 
-ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  margin: auto;
-
-  li {
-    padding: 5px;
-  }
-}
-
 @media screen and (min-width: 991px) {
-  section > div {
+  .skills > div {
     display: flex;
     justify-content: center;
+
+    div{
+        padding: 0px 20px;
+    }
   }
 }

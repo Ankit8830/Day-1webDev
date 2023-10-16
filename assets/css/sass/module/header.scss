@@ -1,0 +1,44 @@
+$bgcolor: #87509c;
+$font-color: #ffffff;
+$font-family: "Titillium Web", Arial;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+header {
+  background-color: $bgcolor;
+  color: $font-color;
+  padding: 30px;
+  font-family: $font-family;
+
+  img{
+    width: 130px;
+  }
+
+  div {
+    padding: 30px 0px;
+  }
+
+
+//   ul {
+//     display: flex;
+//     flex-direction: column;
+//     margin-left: auto;
+//   }
+}
+
+@media screen and (min-width: 991px) {
+  nav>div {
+    display: flex;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      margin-right: auto;
+    }
+  }
+}

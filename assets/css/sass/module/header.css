@@ -1,0 +1,30 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+header {
+  background-color: #87509c;
+  color: #ffffff;
+  padding: 30px;
+  font-family: "Titillium Web", Arial;
+}
+header img {
+  width: 130px;
+}
+header div {
+  padding: 30px 0px;
+}
+
+@media screen and (min-width: 991px) {
+  nav > div {
+    display: flex;
+  }
+  nav > div ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+  }
+}/*# sourceMappingURL=header.css.map */

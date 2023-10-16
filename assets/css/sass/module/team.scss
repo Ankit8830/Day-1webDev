@@ -1,17 +1,25 @@
 $bgcolor: #e7f1f8;
 $font-color: #3c4761;
-$font-family: "Titillium Web", Arial;
+$font-family: 'Titillium Web', Arial;
 
-hr {
-  width: 50px;
-  background-color: #c8d9e5;
-  margin: 20px auto;
-}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+  }
 
 .team {
   background-color: $bgcolor;
   color: $font-color;
   padding: 30px 30px;
+  font-family: $font-family;
+
+  hr {
+    width: 50px;
+    background-color: #c8d9e5;
+    margin: 15px auto;
+  }
 
   h3 {
     padding: 20px 0px 5px 0px;

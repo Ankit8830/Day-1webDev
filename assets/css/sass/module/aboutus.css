@@ -5,31 +5,33 @@
   text-align: center;
 }
 
-.portfolio {
-  background-color: #ffdd99;
-  color: #3c4761;
-  padding: 30px 30px;
+.aboutUs {
+  background-color: #d74680;
+  color: #ffffff;
   font-family: "Titillium Web", Arial;
+  padding: 30px 30px;
 }
-.portfolio hr {
+.aboutUs hr {
   width: 50px;
   background-color: #14a58c;
   margin: 15px auto;
 }
-.portfolio div > img {
-  width: 90%;
-  padding-bottom: 10px;
-}
-.portfolio .cols2 > div {
+.aboutUs .cols2 > div {
   padding: 20px 0px 0px 0px;
+}
+.aboutUs div > p {
+  padding: 15px 0px;
+}
+.aboutUs h3 {
+  padding-bottom: 5px;
+}
+.aboutUs span {
+  color: #ffdd99;
 }
 
 @media screen and (min-width: 991px) {
-  .portfolio > div {
+  .aboutUs > div {
     display: flex;
     justify-content: center;
   }
-  .portfolio > div img {
-    width: 70%;
-  }
-}/*# sourceMappingURL=portfolio.css.map */
+}/*# sourceMappingURL=aboutus.css.map */

@@ -1,44 +1,59 @@
 $bgcolor: #3c5499;
 $font-color: #ffffff;
+$anchor-color: #ffffff;
 $font-family: 'Titillium Web', Arial;
 
-hr {
-  width: 50px;
-  background-color: #c8d9e5;
-  margin: 20px auto;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-footer> {
+.input {
   background-color: $bgcolor;
   color: $font-color;
+  font-family: $font-family;
   padding: 30px 30px;
+
+  hr {
+    width: 50px;
+    background-color: #c8d9e5;
+    margin: 15px auto;
+  }
 
   h3 {
     padding: 20px 0px 5px 0px;
   }
 
-  div> .input-box{
+  div > .input-box {
     padding: 30px 0px;
   }
-
-  
-
 }
 
-ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  margin: auto;
-
-  li {
-    padding: 5px;
-  }
+textarea{
+    padding-top: 15px;
 }
 
+.social{
+    background-color: #344b8e;
+    padding: 15px 0px;
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: $anchor-color;
+            &:hover{
+                color: #30bae7;
+            }
+        }
+    }
+}
 @media screen and (min-width: 991px) {
-  footer>div{
+ .social>ul{
     display: flex;
-    flex-direction: column;
-  }
+    flex-direction: row;
+ }
 }

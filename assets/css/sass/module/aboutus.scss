@@ -1,5 +1,5 @@
-$bgcolor: #ffdd99;
-$font-color: #3c4761;
+$bgcolor: #d74680;
+$font-color: #ffffff;
 $font-family: 'Titillium Web', Arial;
 
 * {
@@ -9,11 +9,11 @@ $font-family: 'Titillium Web', Arial;
     text-align: center;
   }
 
-.portfolio{
+.aboutUs{
     background-color: $bgcolor;
     color: $font-color;
-    padding: 30px 30px;
     font-family: $font-family;
+    padding: 30px 30px;
     
     hr {
         width: 50px;
@@ -21,22 +21,23 @@ $font-family: 'Titillium Web', Arial;
         margin: 15px auto;
       }
 
-    div>img{
-        width: 90%;
-        padding-bottom: 10px;
-    }
-    .cols2>div{
+      .cols2>div{
         padding: 20px 0px 0px 0px;
+    }
+    div>p{
+        padding: 15px 0px;
+    }
+    h3{
+        padding-bottom: 5px;
+    }
+    span{
+        color: #ffdd99;
     }
   }
 
   @media screen and (min-width: 991px) {
-    .portfolio>div {
+    .aboutUs>div {
       display: flex;
       justify-content: center;
-
-      img{
-        width: 70%;
-      }
     }
   }
