@@ -1,0 +1,48 @@
+$bgcolor: #e7f1f8;
+$font-color: #3c4761;
+$font-family: "Titillium Web", Arial;
+
+hr {
+  width: 50px;
+  background-color: #c8d9e5;
+  margin: 20px auto;
+}
+
+.team {
+  background-color: $bgcolor;
+  padding: 60px 80px;
+
+  h3 {
+    padding: 20px 0px 5px 0px;
+  }
+
+  div > p {
+    // color: #30bae7;
+    padding: 20px 0px;
+  }
+
+  span {
+    color: #30bae7;
+  }
+}
+
+div > div {
+  padding: 30px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: auto;
+
+  li {
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .team > div {
+    display: flex;
+  }
+}

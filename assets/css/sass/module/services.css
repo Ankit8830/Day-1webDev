@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+hr {
+  width: 50px;
+  background-color: #14a58c;
+  margin: 20px auto;
+}
+
+.services {
+  background-color: #17c2a4;
+  padding: 60px 80px;
+}
+
+div > div {
+  padding: 30px;
+}
+div > div h3 {
+  padding: 20px 0px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+@media screen and (min-width: 991px) {
+  .services > div {
+    display: flex;
+  }
+}/*# sourceMappingURL=services.css.map */

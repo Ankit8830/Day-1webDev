@@ -1,0 +1,40 @@
+$bgcolor: #17c2a4;
+$font-color: #ffffff;
+$font-family: "Titillium Web", Arial;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+hr {
+  width: 50px;
+  background-color: #14a58c;
+  margin: 20px auto;
+}
+
+.services {
+  background-color: $bgcolor;
+  padding: 60px 80px;
+}
+
+div > div {
+  padding: 30px;
+
+  h3 {
+    padding: 20px 0px;
+  }
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+@media screen and (min-width: 991px) {
+  .services > div {
+    display: flex;
+  }
+}
