@@ -353,8 +353,21 @@ header h1 {
   color: #ffffff;
 }
 
-textarea {
-  padding-top: 15px;
+textarea, input {
+  padding: 10px;
+  background-color: #273a71;
+  border: none;
+  border-radius: 6px;
+}
+
+::-moz-placeholder {
+  color: #ffffff;
+  text-align: left;
+}
+
+::placeholder {
+  color: #ffffff;
+  text-align: left;
 }
 
 .social {
