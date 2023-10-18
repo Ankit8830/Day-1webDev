@@ -30,7 +30,8 @@
   color: #ffffff;
 }
 
-textarea, input {
+textarea,
+input {
   padding: 10px;
   background-color: #273a71;
   border: none;
