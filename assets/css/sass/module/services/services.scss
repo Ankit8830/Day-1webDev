@@ -1,10 +1,9 @@
-
-
 .services {
-  background-color: $bgcolor;
+  // background-color: $bgcolor;
+  text-align: center;
   padding: 30px 30px;
-  color: $font-color;
-  font-family: $font-family;
+  // color: $font-color;
+  // font-family: $font-family;
 
   hr {
     width: 50px;
@@ -12,12 +11,10 @@
     margin: 15px auto;
   }
 
-  div > div {
-    padding: 30px 0px 0px 0px;
-  }
-
-  h3 {
-    padding: 20px 0px;
+  div {
+    div {
+      padding: 30px 0px 0px 0px;
+    }
   }
 
   ul {
@@ -27,11 +24,12 @@
 }
 
 @media screen and (min-width: 991px) {
-  .services > div {
-    display: flex;
-  }
-
   .services {
     padding: 60px 80px;
+    .flex{
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
   }
 }

@@ -1,9 +1,7 @@
-
-
 .aboutUs {
-  background-color: $bgcolor;
-  color: $font-color;
-  font-family: $font-family;
+  // background-color: $bgcolor;
+  // color: $font-color;
+  // font-family: $font-family;
   padding: 30px 30px;
 
   hr {
@@ -20,38 +18,28 @@
       height: 130px;
     }
   }
-  div > p {
-    padding: 15px 0px;
+  div {
+    p {
+      padding: 15px 0px;
+    }
   }
+
   h3 {
     padding-bottom: 5px;
   }
+
   span {
     color: #ffdd99;
   }
 }
 
 @media screen and (min-width: 991px) {
-  .aboutUs > div {
-    display: flex;
-    justify-content: center;
-
-    .cols2 {
-      display: flex;
-      justify-content: space-between;
-      padding-top: 40px;
-
-      div {
-        width: 300px;
-        padding: 0px 20px;
-      }
-      p {
-        font-style: italic;
-      }
-    }
-  }
-
   .aboutUs {
     padding: 60px 80px;
+    .flex{
+      display: flex;
+      justify-content: center;
+      
+    }
   }
 }

@@ -1,14 +1,4 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
 .input {
-  background-color: #3c5499;
-  color: #ffffff;
-  font-family: "Titillium Web", Arial;
   padding: 30px 30px;
 }
 .input hr {
@@ -19,7 +9,7 @@
 .input h3 {
   padding: 20px 0px 5px 0px;
 }
-.input div > .input-box {
+.input div .input-box {
   padding: 30px 0px;
 }
 .input button {
@@ -27,7 +17,6 @@
   border: none;
   border-radius: 5px;
   padding: 15px 25px;
-  color: #ffffff;
 }
 
 textarea,
@@ -39,12 +28,10 @@ input {
 }
 
 ::-moz-placeholder {
-  color: #ffffff;
   text-align: left;
 }
 
 ::placeholder {
-  color: #ffffff;
   text-align: left;
 }
 
@@ -59,15 +46,19 @@ input {
 }
 .social ul a {
   text-decoration: none;
-  color: #ffffff;
+  padding: 10px 10px;
 }
 .social ul a:hover {
   color: #30bae7;
 }
 
 @media screen and (min-width: 991px) {
-  .social > ul {
+  .social ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .social ul a {
+    padding: 0px 10px;
   }
 }/*# sourceMappingURL=footer.css.map */

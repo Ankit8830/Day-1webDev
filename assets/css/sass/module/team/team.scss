@@ -1,18 +1,8 @@
-
-$font-family: "Titillium Web", Arial;
-
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
 .team {
-  background-color: $bgcolor;
-  color: $font-color;
+  // background-color: $bgcolor;
+  // color: $font-color;
   padding: 30px 30px;
-  font-family: $font-family;
+  // font-family: $font-family;
 
   hr {
     width: 50px;
@@ -24,40 +14,39 @@ $font-family: "Titillium Web", Arial;
     padding: 20px 0px 5px 0px;
   }
 
-  div > img {
-    width: 130px;
-  }
+  div {
+    
+    div {
+      padding: 30px 0px 0px 0px;
+    }
 
-  div > div {
-    padding: 30px 0px 0px 0px;
-  }
+    p {
+      padding: 20px 0px;
+    }
 
-  div > p {
-    padding: 20px 0px;
-  }
+    span {
+      color: #30bae7;
+    }
 
-  span {
-    color: #30bae7;
-  }
+    ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      margin: auto;
 
-  ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    margin: auto;
-
-    li {
-      padding: 5px;
+      li {
+        padding: 5px;
+      }
     }
   }
 }
 
 @media screen and (min-width: 991px) {
-  .team > div {
-    display: flex;
-  }
-
   .team {
     padding: 60px 80px;
+    .flex {
+      display: flex;
+      justify-content: center;
+    }
   }
 }

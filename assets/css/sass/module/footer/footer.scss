@@ -1,9 +1,7 @@
-
-
 .input {
-  background-color: $bgcolor;
-  color: $font-color;
-  font-family: $font-family;
+  // background-color: $bgcolor;
+  // color: $font-color;
+  // font-family: $font-family;
   padding: 30px 30px;
 
   hr {
@@ -16,8 +14,10 @@
     padding: 20px 0px 5px 0px;
   }
 
-  div > .input-box {
-    padding: 30px 0px;
+  div {
+    .input-box {
+      padding: 30px 0px;
+    }
   }
 
   button {
@@ -25,7 +25,7 @@
     border: none;
     border-radius: 5px;
     padding: 15px 25px;
-    color: $font-color;
+    // color: $font-color;
   }
 }
 
@@ -38,7 +38,7 @@ input {
 }
 
 ::placeholder {
-  color: $font-color;
+  // color: $font-color;
   text-align: left;
 }
 
@@ -51,7 +51,8 @@ input {
     list-style: none;
     a {
       text-decoration: none;
-      color: $anchor-color;
+      // color: $anchor-color;
+      padding: 10px 10px;
       &:hover {
         color: #30bae7;
       }
@@ -59,8 +60,15 @@ input {
   }
 }
 @media screen and (min-width: 991px) {
-  .social > ul {
-    display: flex;
-    flex-direction: row;
+  .social {
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+      a {
+        padding: 0px 10px;
+      }
+    }
   }
 }

@@ -1,26 +1,16 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
 .portfolio {
-  background-color: #ffdd99;
-  color: #3c4761;
   padding: 30px 30px;
-  font-family: "Titillium Web", Arial;
 }
 .portfolio hr {
   width: 50px;
   background-color: #14a58c;
   margin: 15px auto;
 }
-.portfolio div > img {
+.portfolio div img {
   width: 350px;
   padding-bottom: 10px;
 }
-.portfolio .cols2 > div {
+.portfolio .cols2 div {
   padding: 20px 0px 0px 0px;
 }
 .portfolio button {
@@ -29,7 +19,6 @@
   border-radius: 5px;
   padding: 15px 25px;
   margin-top: 20px;
-  color: #3c4761;
 }
 .portfolio ul {
   display: block;
@@ -52,6 +41,10 @@
   .portfolio {
     padding: 60px 80px;
   }
+  .portfolio .flex {
+    display: flex;
+    justify-content: center;
+  }
   .portfolio ul {
     display: flex;
     flex-direction: row;
@@ -60,10 +53,6 @@
   }
   .portfolio ul li {
     padding: 0px 10px;
-  }
-  .portfolio > div {
-    display: flex;
-    justify-content: center;
   }
   .portfolio > div img {
     width: 400px;

@@ -1,14 +1,4 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
 .aboutUs {
-  background-color: #d74680;
-  color: #ffffff;
-  font-family: "Titillium Web", Arial;
   padding: 30px 30px;
 }
 .aboutUs hr {
@@ -23,7 +13,7 @@
   width: 130px;
   height: 130px;
 }
-.aboutUs div > p {
+.aboutUs div p {
   padding: 15px 0px;
 }
 .aboutUs h3 {
@@ -34,23 +24,11 @@
 }
 
 @media screen and (min-width: 991px) {
-  .aboutUs > div {
-    display: flex;
-    justify-content: center;
-  }
-  .aboutUs > div .cols2 {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 40px;
-  }
-  .aboutUs > div .cols2 div {
-    width: 300px;
-    padding: 0px 20px;
-  }
-  .aboutUs > div .cols2 p {
-    font-style: italic;
-  }
   .aboutUs {
     padding: 60px 80px;
+  }
+  .aboutUs .flex {
+    display: flex;
+    justify-content: center;
   }
 }/*# sourceMappingURL=aboutus.css.map */
