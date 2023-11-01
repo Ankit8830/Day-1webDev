@@ -1,0 +1,23 @@
+.portfolio{
+    background-color: $yellow;
+    img{
+        width: 320px;
+    }
+
+    ul{
+        @include flexy();
+        @include li-spacing();
+    }
+}
+
+@media screen and (min-width:991px){
+    .portfolio{
+        .flex{
+            @include flexy();
+        }
+        img{
+            width: 400px;
+        }
+    }
+}
+

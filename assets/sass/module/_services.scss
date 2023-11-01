@@ -1,0 +1,14 @@
+.services{
+    background-color: $light-green;
+    color: $white;
+}
+
+@media screen and (min-width:991px) {
+    .services{
+        padding: 60px;
+        .flex{
+           @include flexy();
+        }
+    }
+}
+

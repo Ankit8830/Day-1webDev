@@ -1,0 +1,35 @@
+@mixin flexy(){
+    display: flex;
+    justify-content: center;
+}
+
+@mixin img-default(){
+    img{
+        width: 20px;
+    }
+}
+
+@mixin img-100{
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@mixin flex-div(){
+    .flex{
+        div{
+            padding-top: 20px;
+        }
+    }
+}
+
+@mixin li-spacing(){
+    li{
+        padding: 0px 5px;
+    }   
+}
+
+@mixin pad15(){
+    padding: 15px;
+}

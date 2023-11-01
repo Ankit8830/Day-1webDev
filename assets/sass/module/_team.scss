@@ -1,0 +1,31 @@
+.team{
+    background-color: $gray;
+
+    @include flex-div();
+
+    .flex{
+        div{
+            div{
+                @include img-100();
+            }
+        }
+    }
+
+    ul{
+       @include flexy();
+       @include li-spacing();
+    }
+}
+
+@media screen and (min-width:991px) {
+    .team{
+        padding: 60px;
+        .flex{
+           @include flexy();
+           div{
+            padding-top: 0px;
+           }
+        }
+    }
+}
+

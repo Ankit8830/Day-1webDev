@@ -1,0 +1,36 @@
+.aboutUs{
+    background-color: $pink;
+    color: $white;
+    span{
+        color: $font-yellow;
+    }
+    div{
+
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+@media screen and (min-width:991px) {
+    .aboutUs{
+        padding: 60px;
+        .flex, .flex-col{
+           @include flexy();
+           div{
+            @include pad15();
+
+           }
+           
+           p, span,h3{
+            
+            text-align: left;
+           }
+        }
+        .flex-col{
+            width: 400px;
+            padding:0px 20px;
+         }
+    }
+}
