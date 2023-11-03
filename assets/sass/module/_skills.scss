@@ -1,0 +1,8 @@
+@media screen and (min-width:991px){
+    .flex{
+        @include flexy();
+        div{
+            @include pad15();
+        }
+    }
+}

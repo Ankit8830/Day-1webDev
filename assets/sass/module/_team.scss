@@ -11,6 +11,10 @@
         }
     }
 
+    .flex-col{
+        @include pad15();
+    }
+
     ul{
        @include flexy();
        @include li-spacing();

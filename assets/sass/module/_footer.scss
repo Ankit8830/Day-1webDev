@@ -1,8 +1,18 @@
-footer{
+footer {
+  color: $white;
+  a {
     color: $white;
-    a{
-        color: $white;
+  }
+  background-color: $footerbgcolor;
+  padding: 20px;
+}
+
+@media screen and (min-width: 991px) {
+    footer{
+        padding: 60px 60px 0px;
     }
-    background-color: $footerbgcolor;
-    padding: 20px;
+
+  .social{
+    background-color: $socialbgcolor;
+  }
 }

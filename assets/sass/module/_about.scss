@@ -5,27 +5,26 @@
         color: $font-yellow;
     }
     div{
-
         img{
             width: 100px;
             height: 100px;
         }
     }
+
+    .flex-col{
+        @include pad15();
+    }
 }
 
 @media screen and (min-width:991px) {
     .aboutUs{
-        padding: 60px;
         .flex, .flex-col{
            @include flexy();
            div{
             @include pad15();
-
-           }
-           
-           p, span,h3{
-            
-            text-align: left;
+            @include para-pad-none();
+            @include txt-left();
+            @include head3-padtb();
            }
         }
         .flex-col{

@@ -9,25 +9,8 @@ header{
 
 @media screen and (min-width:991px) {
     header{
-        padding: 40px 60px 60px 60px;
-
         h1{
             padding: 60px 0px 30px 0px;
-        }
-
-        nav{
-            div{
-                @include flexy();
-                justify-content: space-between
-            }
-
-            ul{
-                @include flexy();
-                
-                li{
-                    padding: 0px 5px;
-                }
-            }
         }
     }
 }

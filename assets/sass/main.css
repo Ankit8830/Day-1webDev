@@ -28,11 +28,6 @@ h3 {
   font-size: 15px;
 }
 
-p {
-  font-size: 13px;
-  padding: 15px;
-}
-
 hr {
   width: 50px;
   height: 3px;
@@ -40,6 +35,9 @@ hr {
 }
 
 @media screen and (min-width: 991px) {
+  .aboutUs, .portfolio, .services, .skills, .team {
+    padding: 60px;
+  }
   h1 {
     font-size: x-large;
   }
@@ -50,10 +48,7 @@ hr {
     font-size: 17px;
   }
   p {
-    font-size: 15px;
-  }
-  .flex {
-    padding-top: 20px;
+    font-size: 10px;
   }
   ul {
     display: flex;
@@ -84,7 +79,7 @@ h3 {
 
 p {
   font-size: 13px;
-  padding: 15px;
+  padding: 10px;
 }
 
 hr {
@@ -105,6 +100,7 @@ hr {
   }
   p {
     font-size: 15px;
+    padding: 15px;
   }
   span {
     font-size: 12px;
@@ -121,20 +117,39 @@ hr {
   width: 100px;
   height: 100px;
 }
+.aboutUs .flex-col {
+  padding: 20px 0px 0px;
+}
+@media screen and (min-width: 991px) {
+  .aboutUs .flex-col {
+    padding: 15px 15px 0px;
+  }
+}
 
 @media screen and (min-width: 991px) {
-  .aboutUs {
-    padding: 60px;
-  }
   .aboutUs .flex, .aboutUs .flex-col {
     display: flex;
     justify-content: center;
   }
   .aboutUs .flex div, .aboutUs .flex-col div {
-    padding: 15px;
-  }
-  .aboutUs .flex p, .aboutUs .flex span, .aboutUs .flex h3, .aboutUs .flex-col p, .aboutUs .flex-col span, .aboutUs .flex-col h3 {
+    padding: 20px 0px 0px;
     text-align: left;
+  }
+}
+@media screen and (min-width: 991px) and (min-width: 991px) {
+  .aboutUs .flex div, .aboutUs .flex-col div {
+    padding: 15px 15px 0px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .aboutUs .flex div p, .aboutUs .flex-col div p {
+    padding: 0px;
+  }
+  .aboutUs .flex div p, .aboutUs .flex div h3, .aboutUs .flex div span, .aboutUs .flex-col div p, .aboutUs .flex-col div h3, .aboutUs .flex-col div span {
+    text-align: left;
+  }
+  .aboutUs .flex div h3, .aboutUs .flex-col div h3 {
+    padding: 10px 0px 0px 0px;
   }
   .aboutUs .flex-col {
     width: 400px;
@@ -150,6 +165,14 @@ footer a {
   color: #ffffff;
 }
 
+@media screen and (min-width: 991px) {
+  footer {
+    padding: 60px 60px 0px;
+  }
+  .social {
+    background-color: #344b8e;
+  }
+}
 header {
   color: #ffffff;
   background-color: #87509c;
@@ -160,23 +183,8 @@ header img {
 }
 
 @media screen and (min-width: 991px) {
-  header {
-    padding: 40px 60px 60px 60px;
-  }
   header h1 {
     padding: 60px 0px 30px 0px;
-  }
-  header nav div {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-  }
-  header nav ul {
-    display: flex;
-    justify-content: center;
-  }
-  header nav ul li {
-    padding: 0px 5px;
   }
 }
 .portfolio {
@@ -191,6 +199,14 @@ header img {
 }
 .portfolio ul li {
   padding: 0px 5px;
+}
+.portfolio .flex div {
+  padding: 20px 0px 0px;
+}
+@media screen and (min-width: 991px) {
+  .portfolio .flex div {
+    padding: 15px 15px 0px;
+  }
 }
 
 @media screen and (min-width: 991px) {
@@ -226,6 +242,14 @@ header img {
   width: 100px;
   height: 100px;
 }
+.team .flex-col {
+  padding: 20px 0px 0px;
+}
+@media screen and (min-width: 991px) {
+  .team .flex-col {
+    padding: 15px 15px 0px;
+  }
+}
 .team ul {
   display: flex;
   justify-content: center;
@@ -246,9 +270,41 @@ header img {
     padding-top: 0px;
   }
 }
+@media screen and (min-width: 991px) {
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+  .flex div {
+    padding: 20px 0px 0px;
+  }
+}
+@media screen and (min-width: 991px) and (min-width: 991px) {
+  .flex div {
+    padding: 15px 15px 0px;
+  }
+}
 button {
   border-radius: 4px;
   border: none;
   font-weight: bold;
   padding: 13px 40px;
+}
+
+@media screen and (min-width: 991px) {
+  header {
+    padding: 40px 120px 60px 120px;
+  }
+  header nav div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  header nav ul li {
+    padding: 0px 5px;
+  }
 }/*# sourceMappingURL=main.css.map */

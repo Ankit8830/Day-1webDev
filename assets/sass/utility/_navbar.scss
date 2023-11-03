@@ -1,0 +1,20 @@
+
+@media screen and (min-width: 991px) {
+  header{
+    padding: 40px 120px 60px 120px;
+    nav {
+      div {
+        @include flexy();
+        justify-content: space-between;
+      }
+  
+      ul {
+        @include flexy();
+  
+        li {
+          padding: 0px 5px;
+        }
+      }
+    }
+}
+}
