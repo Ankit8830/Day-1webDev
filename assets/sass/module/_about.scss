@@ -13,6 +13,9 @@
 
     .flex-col{
         @include pad15();
+        p{
+            font-style: italic;
+        }
     }
 }
 

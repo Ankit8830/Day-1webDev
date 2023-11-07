@@ -1,8 +1,51 @@
-@media screen and (min-width:991px){
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
+
+    .blue-bar{
+        background: 
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(#30bae7 90%, #dfe8ed 0);    
+    }
+
+    .pink-bar{
+        background: 
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(#d74680 75%, #dfe8ed 0);    
+    }
+
+    .green-bar{
+        background: 
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(#15c7a8 70%, #dfe8ed 0);    
+    }
+
+    .orange-bar{
+        background: 
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(#eb7d4b 85%, #dfe8ed 0);    
+    }
+
     .flex{
-        @include flexy();
         div{
-            @include pad15();
+            padding: 15px 0px;
+        }
+        h3{
+            padding-top: 10px;
         }
     }
+   
+@media screen and (min-width:991px){
+    .flex{
+        padding-top: 40px;
+        @include flexy();
+        justify-content: space-evenly;
+    }
+
 }

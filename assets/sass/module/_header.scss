@@ -1,16 +1,55 @@
 header{
     color: $white;
     background-color: $bgcolor;
+
+    h1{
+        padding: 40px 0px 30px 0px;
+    }
+   
     img{
         width: 100px;
         height: auto;
+        float: left;
     }
+    // li{
+    //     display: block;
+    //     float: left;
+    // }
+
+    // nav{
+    //     div{
+
+    //         .fa-burger{
+    //             padding: 20px;
+    //         }
+    //         .navbar-list{
+
+    //             a{
+    //                 color: $white;
+    //                 padding: 5px 8px;
+    //                 border-radius: 3px;
+    //                 cursor: pointer;
+    //                 .active, &:hover{
+    //                     background:#643a79;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 @media screen and (min-width:991px) {
-    header{
-        h1{
-            padding: 60px 0px 30px 0px;
-        }
+ header{
+
+    h1{
+        padding: 60px 0px 40px 0px;
     }
+
+//     nav{
+//         .fa-burger{
+//             display: none;
+//         }
+//     }
+//  }
+ }
 }

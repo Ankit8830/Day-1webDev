@@ -8,6 +8,7 @@
         padding: 60px;
         .flex{
            @include flexy();
+           @include box-350();
         }
     }
 }

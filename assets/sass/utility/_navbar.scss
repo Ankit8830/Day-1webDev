@@ -10,9 +10,8 @@
   
       ul {
         @include flexy();
-  
-        li {
-          padding: 0px 5px;
+        li{
+          padding: 10px;
         }
       }
     }

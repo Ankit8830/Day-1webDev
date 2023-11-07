@@ -1,42 +1,74 @@
-*{
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
 }
 
-img{
-    padding: 0px;
-    margin: 0px;
+img {
+  padding: 0px;
+  margin: 0px;
 }
 
-
-section, header{
-    padding: 20px;
+section,
+header {
+  padding: 20px;
 }
 
 // fontsize
 
-h1{
-    font-size: larger;
+h1 {
+  font-size: larger;
 }
 
-h2{
-    font-size: 20px;
+h2 {
+  font-size: 20px;
 }
 
-h3{
-    font-size: 15px;
+h3 {
+  font-size: 15px;
 }
 
-hr{
-    width: 50px;
-    height: 3px;
-    margin: 15px auto 0px auto;
-
+hr {
+  width: 50px;
+  height: 3px;
+  margin: 15px auto 0px auto;
 }
+
+li{
+    a {
+        color: #ffffff;
+        cursor: pointer;
+      }
+}
+
+header{
+    li{
+        a {
+            padding: 5px 8px;
+            border-radius: 3px;
+            .active,
+            &:hover {
+              background: #643a79;
+            }
+          }
+    }
+}
+
+.social{
+    li{
+        a {
+            .active,
+            &:hover {
+              color: #30bae7;
+            }
+          }
+    }
+}
+
+
 
 // .flex{
 //     div{
@@ -46,45 +78,60 @@ hr{
 //     }
 // }
 
-@media screen and (min-width:991px){
-
-    .aboutUs, .portfolio, .services, .skills, .team{
-       padding: 60px;
-    }
-    // fontsize
-    h1{
-        font-size: x-large;
-    }
-
-    h2{
-        font-size: 25px;
-    }
-
-    h3{
-        font-size: 17px;
-    }
-
-    p{
-        font-size: 10px;
-    }
-
-    // .flex{
-    //     padding-top: 20px;
-    // }
-    
-    ul{
-        @include flexy();
-        li{
-            padding: 0px 10px;
-        }
-    }
-
-    .flex{
-        div{
-            padding-top: 0px;
-        }
-    }
-    
-   
+br {
+  display: none;
 }
 
+.social {
+  background-color: #344b8e;
+  padding: 15px 0px;
+}
+
+@media screen and (min-width: 991px) {
+  .aboutUs,
+  .portfolio,
+  .services,
+  .skills,
+  .team {
+    br {
+      display: inline;
+    }
+    padding: 60px 0px;
+  }
+
+  // fontsize
+  h1 {
+    font-size: x-large;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  // .flex{
+  //     padding-top: 20px;
+  // }
+
+  ul {
+    @include flexy();
+  }
+
+  .flex {
+    div {
+      padding-top: 0px;
+    }
+  }
+
+  .container {
+    width: 1080px;
+    margin: 0px auto;
+  }
+}
